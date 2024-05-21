@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  
+ <style>
+    
+
+/* packages start */
+.packages .box-contianer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+.packages .box-contianer .box{
+    border: 1px solid black;
+    box-shadow: var(---box-shadow); 
+    background: var(---white);
+    display: none;
+}
+.packages .box-contianer .box:nth-child(1),
+.packages .box-contianer .box:nth-child(2),
+.packages .box-contianer .box:nth-child(3),
+.packages .box-contianer .box:nth-child(4),
+.packages .box-contianer .box:nth-child(5),
+.packages .box-contianer .box:nth-child(6){
+    display: inline-block;
+}
+
+.packages .box-contianer .box:hover .image img{
+    transform: scale(1.1);
+}
+
+
+.packages .box-contianer .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.packages .box-contianer .box .image img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.packages .box-contianer .box .content{
+    padding: 3rem;
+    text-align: center;
+}
+
+.packages .box-contianer .box .content h3{
+    font-size: 2.5rem;
+    color: var(---black);
+}
+.packages .box-contianer .box .content p{
+    font-size: 1.5rem;
+    color: var(---light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+.packages .load-More{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+ </style>
+ 
+</body>
+
+   
+
+     <section class="packages">
+
+        <h1 class="heading-title"> top destinations </h1>
+
+        <div class="box-contianer">
+
+            <div class="box">
+                <div class="image">
+                    <img src="/pngimages/place no 1 img.jpg" alt="">
+            </div> 
+            <div class="content">
+                <h3>Adventure & Tour </h3>
+                <p> corrupti nobis error dolore cum ducimus, necessitatibus tempora tenetur! Error nulla perspiciatis corporis debitis impedit necessitatibus.</p>
+                <a href="book.html" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="/pngimages/place no 1 img.jpg" alt="">
+        </div> 
+        <div class="content">
+            <h3>Adventure & Tour </h3>
+            <p> corrupti nobis error dolore cum ducimus, necessitatibus tempora tenetur! Error nulla perspiciatis corporis debitis impedit necessitatibus.</p>
+            <a href="book.html" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="image">
+            <img src="/pngimages/place no 1 img.jpg" alt="">
+    </div> 
+    <div class="content">
+        <h3>Adventure & Tour </h3>
+        <p> corrupti nobis error dolore cum ducimus, necessitatibus tempora tenetur! Error nulla perspiciatis corporis debitis impedit necessitatibus.</p>
+        <a href="book.html" class="btn">book now</a>
+    </div>
+</div>
+
+<div class="box">
+    <div class="image">
+        <img src="/pngimages/place no 1 img.jpg" alt="">
+</div> 
+<div class="content">
+    <h3>Adventure & Tour </h3>
+    <p> corrupti nobis error dolore cum ducimus, necessitatibus tempora tenetur! Error nulla perspiciatis corporis debitis impedit necessitatibus.</p>
+    <a href="book.html" class="btn">book now</a>
+</div>
+</div>
+    </div>
+
+
+    
+    </section>
+
+     
+
+</body>
+</html>
